@@ -15,10 +15,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Sel {
+//<<<<<<< HEAD
+	private void push() {
+		System.out.println("Conflict");
+
+	}
+//=======
 	private void con() {
 		System.out.println("1919");
 	}
 	static WebDriver driver;
+//>>>>>>> af75edc58e6f3ab89e39d5167ddafbe430ae4e23
 	public static void main(String[] args) throws AWTException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sathish Babu\\eclipse-workspace\\Selenium-New\\lib\\chromedriver.exe");
 		driver=new ChromeDriver();
