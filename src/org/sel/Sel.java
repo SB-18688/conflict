@@ -15,6 +15,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Sel {
+	
+	
+	private void cad() {
+		System.out.println("sel");
+	}
 //<<<<<<< HEAD
 	private void push() {
 		System.out.println("Conflict");
