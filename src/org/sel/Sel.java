@@ -17,6 +17,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Sel {
 	
 	
+	private void bass() {
+		System.out.println("sss");
+
+	}
+	
 	private void cad() {
 		System.out.println("sel");
 	}
